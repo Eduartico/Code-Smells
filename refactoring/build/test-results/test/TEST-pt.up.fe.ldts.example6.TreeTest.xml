@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example6.TreeTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2021-12-10T14:37:33" hostname="LAPTOP-8D29A3SM" time="0.035">
+<testsuite name="pt.up.fe.ldts.example6.TreeTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2021-12-10T15:14:45" hostname="LAPTOP-8D29A3SM" time="0.045">
   <properties/>
-  <testcase name="testTreeSetLocation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.016"/>
-  <testcase name="testToString()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.008">
+  <testcase name="testTreeSetLocation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.032"/>
+  <testcase name="testToString()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.004">
     <failure message="org.junit.ComparisonFailure: expected:&lt;...Sat Aug 31 10:20:56 [WE]ST 2002 in location ...&gt; but was:&lt;...Sat Aug 31 10:20:56 [B]ST 2002 in location ...&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...Sat Aug 31 10:20:56 [WE]ST 2002 in location ...&gt; but was:&lt;...Sat Aug 31 10:20:56 [B]ST 2002 in location ...&gt;
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
@@ -99,9 +99,9 @@
 	at java.base/java.lang.Thread.run(Thread.java:829)
 </failure>
   </testcase>
-  <testcase name="testAddAppraisal()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.002"/>
-  <testcase name="testNextAppraisalNotOverdue()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.002"/>
-  <testcase name="testTreeCreation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.0"/>
+  <testcase name="testAddAppraisal()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
+  <testcase name="testNextAppraisalNotOverdue()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
+  <testcase name="testTreeCreation()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
   <testcase name="testNextAppraisalOverdue()" classname="pt.up.fe.ldts.example6.TreeTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
