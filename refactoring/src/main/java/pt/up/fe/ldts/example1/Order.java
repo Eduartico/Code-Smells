@@ -15,19 +15,15 @@ public class Order {
     }
 
     public boolean isElegibleForFreeDelivery() {
-        if (getTotal() > 100) return true;
-        else return false;
+        return getTotal()>100;
     }
 
     public String printOrder() {
         StringBuffer printBuffer = new StringBuffer();
-
         for (OrderLine line : lines)
-            printBuffer.append(line.getProduct().getName() + "(x" + line.getQuantity() + "): " + (line.getProduct().getPrice() * line.getQuantity()) + "\n");
-
+            printBuffer.append(line.toString() + "\n");
         printBuffer.append("Total: " + getTotal());
         return printBuffer.toString();
-
     }
     private double getTotal() {
         double total = 0;
