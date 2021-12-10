@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pt.up.fe.ldts.example2.ShapeSpockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-10T15:11:26" hostname="LAPTOP-8D29A3SM" time="0.209">
+<testsuite name="pt.up.fe.ldts.example2.ShapeSpockTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-12-10T15:14:45" hostname="LAPTOP-8D29A3SM" time="0.134">
   <properties/>
-  <testcase name="Get Area Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.143"/>
-  <testcase name="Get Area Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.0"/>
+  <testcase name="Get Area Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.069"/>
+  <testcase name="Get Area Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.001"/>
   <testcase name="Get Perimeter Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.002"/>
   <testcase name="Get Perimeter Rectangle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.001"/>
   <testcase name="Draw Circle" classname="pt.up.fe.ldts.example2.ShapeSpockTest" time="0.059"/>

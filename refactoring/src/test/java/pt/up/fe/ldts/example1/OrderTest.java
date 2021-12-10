@@ -22,7 +22,7 @@ public class OrderTest {
     }
 
     @Test
-    public void isElegibleForFreeDelivery() {
+    public void isElegibleForFreeDeliverygibleForFreeDelivery() {
         assertFalse(getSmallOrder().isElegibleForFreeDelivery());
         assertTrue(getLargeOrder().isElegibleForFreeDelivery());
     }
